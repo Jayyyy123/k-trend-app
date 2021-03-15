@@ -1,0 +1,58 @@
+.mostPopular {
+  position: absolute;
+  width: 300px;
+  padding-right: 40px;
+}
+
+.mostPopular > h1{
+  margin-left: 35px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.mostPopular > hr {
+  margin-bottom: 40px;
+  margin-left: 35px;
+  border: 2px solid black;
+}
+
+.mostPopular__content {
+  width: 100%;
+}
+
+.mostPopular__content > ul > li {
+  margin-bottom: 40px;
+  list-style: none;
+  font-weight: 600;
+}
+
+.mostPopular__content > ul > li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mostPopular__search {
+  min-width: 100px;
+  height: 10px;
+  width: 220px;
+  border: 1px solid black;
+  color: gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.mostPopular__search > input {
+  border: none;
+  width: 100%;
+  outline: none;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+.mostPopular__search > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+

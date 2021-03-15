@@ -1,0 +1,13 @@
+.english {
+    position: relative;
+    height: 100vh;
+  }
+  
+  .english_container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+  }
+  

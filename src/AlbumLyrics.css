@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.album__lyrics {
+  margin-top: 30px;
+}
+
+.album__lyrics > h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.album__lyrics > hr {
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+}
+
+.album__lyrics > p {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  font-weight: 600;
+}
+

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.album__table {
+  display: flex;
+}
+
+.album__body > h1 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.album__about > hr,
+.album__bg > hr,
+.album__mv > hr {
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.album__body > hr {
+  margin-bottom: 40px;
+  border: 1px solid black;
+}
+
+.album__top {
+  display: flex;
+  width: 100%;
+}
+
+.albumImage__section {
+  margin-right: 50px;
+}
+
+.album__top > img {
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.albumImage__section > img {
+  margin-bottom: 30px;
+}
+
+.album__table > table {
+  border-collapse: collapse;
+}
+
+.album__table > table,
+th,
+td {
+  border: 1px solid black;
+  font-family: "Lato", sans-serif;
+}
+
+.album__table > table > tr > th {
+  text-align: left;
+  padding-right: 20px;
+}
+
+.album__bg > h2,
+.album__mv > h2,
+.album__about > h2 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+.album__about {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.album__about > p {
+  width: 100%;
+  font-size: 20px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+}
+
+.album__mv {
+  margin-bottom: 40px;
+}
+
+.album__bg > p,
+.album__mv > p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: black;
+  line-height: 1.4;
+}

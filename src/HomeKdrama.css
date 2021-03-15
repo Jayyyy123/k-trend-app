@@ -1,0 +1,66 @@
+.home__kdrama {
+  min-height: 300px;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+}
+
+.home__kdrama > hr {
+  border: 2px solid black;
+}
+
+.kdrama__container {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.kdrama__rowContainer {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.kdrama__rowOne {
+  height: 100%;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.kdrama__rowOne > img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.kdrama__rowOne > h1 {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* .kdrama__rowTwo{
+  height: 100%;
+  width: 100%;
+  margin-right: 20px;
+} */
+
+@media screen and (max-width: 1100px) {
+  .kdrama__rowContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kdrama__rowOne > img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+
+  .kdrama__rowOne > h1 {
+    margin-left: 20px;
+  }
+
+  .kdrama__rowOne {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+}
